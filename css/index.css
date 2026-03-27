@@ -1,0 +1,273 @@
+
+  .navbar{
+    background: transparent !important;
+    z-index: 1;
+  }
+
+  .main-container {
+    margin-top: -190px;
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+
+  .foto-container {
+    position: relative;
+  }
+
+  .fotohome {
+      width: 100%;
+      height: auto;
+  }
+
+  .scritta {
+    width: 100%;
+    font-family: 'Great Vibes', cursive;
+    font-size: 16vw;
+    color: white;
+    text-shadow: 2px 2px 5px rgb(100, 100, 100);
+    position: absolute;
+    top: 78%;
+    left: 6vw;
+  }
+
+  .annuncio {
+    font-family: 'Great Vibes', cursive;
+    width: 100%;
+    text-shadow: 2px 2px 5px rgb(100, 100, 100);
+    position: absolute;
+  }
+
+  .ann-p1 {
+    top: 4%;
+    left: 24vw;
+    font-size: 10vw;
+  }
+  
+  .ann-p2 {
+    top: 25%;
+    left: 40vw;
+    font-size: 6vw;
+  }
+
+  .ann-p3 {
+    top: 35%;
+    font-size: 15vw;
+    color: #5c7b9b;
+    left: 2vw;
+  }
+
+  .ann-p4 {
+    top: 67%;
+    font-size: 6.2vw;
+    left: 29vw;
+  }
+  .ann-p5 {
+    top: 80%;
+    font-size: 7.3vw;
+    left: 39vw;
+  }
+
+  .ann-p6 {
+    padding-top: 0px;
+    margin-top: 0px;
+    margin-left: 14vw;
+    font-size: 8.5vw;
+    font-family: 'Great Vibes', cursive;
+    text-shadow: 2px 2px 5px rgb(100, 100, 100);
+  }
+
+  .ann-p7 {
+    font-size: 6.5vw;
+    font-family: "Calligraffitti", cursive;
+    text-shadow: 2px 2px 5px rgb(100, 100, 100); 
+    padding-left: 5.3vw;       
+  }
+
+  .ann-p8{
+    font-size: 25vw;
+    color: #5c7b9b;
+    padding-left: 13vw;
+    font-family: "Miss Fajardose", cursive;
+    text-shadow: 2px 2px 5px rgb(100, 100, 100);
+    margin-top: -8px; 
+  }
+
+  .ann-p7-font-min {
+    font-size: 5.6vw;
+  }
+
+  .ann-p9 {
+    font-size: 5.8vw;
+    font-family: "Calligraffitti", cursive;
+    text-shadow: 2px 2px 5px rgb(100, 100, 100);
+    padding-left: 3vw;
+    margin-top: 1.5em;
+  }
+
+  .ann-p10{
+    font-family: 'Great Vibes', cursive;
+    width: 100%;
+    text-shadow: 2px 2px 5px rgb(100, 100, 100);
+    padding-left: 6vw;
+    margin-top: 3rem !important;
+    margin-bottom: 0 !important;
+    font-size: 8vw;   
+  }
+
+  .risto-addr {
+    font-size: 5vw;
+    font-family: "Calligraffitti", cursive;
+    text-shadow: 2px 2px 5px rgb(100, 100, 100);
+  }
+
+  .bottom-end-p {
+    height: 50px;
+    width: 100%;
+    background: linear-gradient(to bottom, #fff, #f8f8f8);
+  }
+
+  #fiori-div {
+    background-color: transparent;
+    margin-top: -15px;
+    padding-bottom: 0;
+    height: 80px;
+    margin-bottom: 0;
+  }
+
+  #fiori-img {
+    height: 190px;
+    margin-top: -3.8em;
+  }
+
+  #foto-sep{
+    height: 10px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: -9px !important;
+    background: white!important;
+  }
+
+  .img-sep-1 {
+    height: 30px;
+    width: 100%;
+    background: linear-gradient(to bottom, #fff, #fdfdfe);
+  }
+
+  .img-sep-2 {
+    height: 30px;
+    width: 100%;
+    background: linear-gradient(to bottom, #fdfdff, #fff);
+  }
+
+  .map-wrapper {
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%; /* 16:9 */
+    height: 0;
+    overflow: hidden;
+    border-radius: 10px;
+  }
+
+  .map-wrapper iframe {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border: 0;
+    top: 0;
+    left: 0;
+  }
+
+  .map-overlay {
+    position: absolute;
+    top: 3px;
+    left: -20px;
+  }
+
+  .map-button {
+    background: #4f7aa4!important;
+    color: white;
+    padding: 12px 22px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 3.4vw;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+    transition: 0.2s;
+  }
+
+  .btn-vengo {
+    background: #4f7aa4!important;
+    color: white;
+    padding: 12px 22px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 4vw;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+    transition: 0.2s;
+    margin-left: 35vw; 
+  }
+
+  .map-button:hover,.btn-vengo:hover {
+    opacity: 0.8;
+    color: whitesmoke;
+  }
+
+  .btn-copy {
+    background-color: white;
+    border-color: white;
+    color: #4f7aa4;
+    margin-top: -20px;
+    font-size: 6.5pt;
+    opacity: 0.9;
+    height: 38px;
+}
+
+.btn-copy:hover{
+  opacity: 1;
+  color: #4f7aa4;
+}
+
+.ann-iban {
+font-size: 5.8vw;
+font-family: "Calligraffitti", cursive;
+text-shadow: 2px 2px 5px rgb(100, 100, 100);
+padding-left: 3vw;
+margin-top: 2.5em;    
+}
+
+#iban-da-copiare {
+font-family: "Marcellus SC", serif;
+font-size: 3.9vw;
+}
+
+.collapsible-button {
+  background-color: transparent;
+  color: black;
+  padding: 10px;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 16px;
+  cursor: pointer;
+  display: inline-flex;
+}
+
+.arrow {
+  transition: transform 0.3s ease;
+}
+
+.collapsible-button.active .arrow {
+  transform: rotate(180deg);
+  margin-top: -4px!important;
+}
+
+.iban-container {
+visibility: hidden;
+}
+
+.iban-container.active {
+visibility: visible;
+}
+

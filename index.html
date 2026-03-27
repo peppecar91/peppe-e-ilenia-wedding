@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- Fonts-->
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Miss+Fajardose&family=Marcellus+SC&family=Calligraffitti&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=content_copy" />    
+    <link href="/css/index.css" rel="stylesheet">
+
+    <title>Peppe&Ilenia</title>
+  </head>
+  <body>
+
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#coll-toggle" aria-controls="coll-toggle" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="coll-toggle">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="https://docs.google.com/forms/d/e/1FAIpQLScl6SuRTARMJZ0soOEpIisrPTPuALMKqDOkDRY7IhiarP3cFg/viewform?usp=publish-editor">Vengo</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#" id="avvia-nav" onclick="AvviaNavigazione();">Metti la strada</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+    </nav>
+
+    <div class="container-fluid main-container">
+      <div class="foto-container">
+            <img src="https://i.ibb.co/gbp891pv/home-foto.jpg" alt="PeppeEIlenia" border="0" class="fotohome">
+            <div class="scritta">Peppe & Ilenia</div>
+      </div>
+
+      <div class="foto-container" id="fiori-div">
+        <img src="https://i.ibb.co/2Y1cWnmp/fiori-div.png" id="fiori-img" alt="fiori div" border="0" class="w-100">
+      </div>
+
+      <div class="foto-container">
+          <img src="https://i.ibb.co/pjb46L0q/page-bottom-beige.jpg" alt="page bottom" border="0" class="w-100">
+          <div id="foto-sep" class="w-100"></div>
+          <div class="annuncio ann-p1">Ci Sposiamo!</div>
+          <div class="annuncio ann-p2">il</div>
+          <div class="annuncio ann-p3">16 Settembre 2026</div>
+          <div class="annuncio ann-p4">alle 10:00</div>
+          <div class="annuncio ann-p5">in Comune a</div> 
+      </div>
+      <div class="w-100 ann-p6 mb-2">Garbagnate Milanese</div>
+      <div class="img-sep-1"></div>
+      <div class="foto-container">
+        <img src="https://i.ibb.co/k60sYsxD/weonlake.jpg" alt="weonlake" border="0" class="w-100">
+      </div>  
+      <div class="img-sep-2"></div>      
+      <div class="w-100 ann-p7">
+        Dopo la Cerimonia Vi aspettiamo</br>
+        <span class="ann-p7-font-min" style="padding-left: 37vw; padding-bottom: 0px!important;">Per</span></br>
+        il Rito Simbolico ed il Ricevimento</br>
+        <span class="ann-p7-font-min" style="padding-left: 26vw; padding-bottom: 0px!important;">dalle ore 12:00</span></br>
+        <span style="padding-left: 18vw;">presso il Ristorante</span>
+      </div>
+      <div class="w-100 ann-p8">Aquarium</div>
+      <div class="w-100 risto-addr">📍 Via Risorgimento 130, Clusane sul Lago d’Iseo</div>
+      <div class="map-wrapper">
+        <iframe
+          src="https://www.google.com/maps?q=45.664797,9.9976125&z=15&output=embed"
+          loading="lazy">
+        </iframe>
+      
+        <div class="map-overlay">
+          <a id="way-btn" href="https://www.google.com/maps/dir/?api=1&destination=45.664797,9.9976125"
+             target="_blank"
+             class="map-button">
+             📍 Metti la strada
+          </a>
+        </div>
+      </div>
+
+      <div class="ann-p9">
+        In attesa del grande giorno cliccando
+        il bottone sotto o nel menu sopra trovi la sezione 'Vengo' per confermarci
+        la vostra partecipazione e le preferenze per il banchetto!
+      </div>
+      <div class="w-100 mt-4">
+        <a class="btn-vengo" href="https://docs.google.com/forms/d/e/1FAIpQLScl6SuRTARMJZ0soOEpIisrPTPuALMKqDOkDRY7IhiarP3cFg/viewform?usp=publish-editor">Vengo</a>
+      </div>
+      
+      <div class="ann-iban">
+      La vostra presenza è il regalo più grande!</br>
+      Il nostro sogno continua dopo il Sì… verso il viaggio di nozze in Australia!
+      Se nel cuore avete il desiderio di aiutarci a realizzarlo, potete farlo così:      <button class="collapsible-button" onclick="toggleDiv()">
+        <span class="arrow">▼</span>
+      </button>
+      </div>
+
+      <div class="container mt-4 mb-4">
+        <div id="myContent" class="d-flex gap-1 iban-container" >
+          <pre class="mb-0" style="font-size: 3.2vw;"><i>Causale: </i>Viaggio di Nozze Peppe e Ilenia
+<i>IBAN: </i><span id="iban-da-copiare">IT93T0306909784100000094537</span></pre>
+          <button type="button" class="btn btn-copy float-left" id="copyBtn" data-bs-toggle="tooltip" data-bs-placement="top" title="Copia">
+            <span class="material-symbols-outlined">
+              content_copy
+            </span>
+          </button>
+        </div>
+      </div>
+
+      <div class="ann-p10">Vi Aspettiamo!</div>
+
+      <div class="bottom-end-p"></div>
+      <div class="foto-container">
+        <img src="https://i.ibb.co/Hfr0fXsp/coni-petali.jpg" alt="coni petali" border="0" class="w-100" style="height: 50vw;">
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script>
+      function AvviaNavigazione()
+      {document.getElementById('way-btn').click();}
+      // Inizializza tooltip
+      const tooltipTrigger = document.getElementById('copyBtn');
+      const tooltip = new bootstrap.Tooltip(tooltipTrigger);
+
+      tooltipTrigger.addEventListener('click', () => {
+        const testo = document.getElementById('iban-da-copiare').innerText;
+        
+        // Copia negli appunti
+        navigator.clipboard.writeText(testo).then(() => {
+          
+          // Cambia il tooltip
+          tooltipTrigger.setAttribute('data-bs-original-title', 'Copiato!');
+          tooltip.show();
+
+          // Ripristina tooltip originale dopo 2 secondi
+          setTimeout(() => {
+            tooltipTrigger.setAttribute('data-bs-original-title', 'Copia');
+          }, 2000);
+
+        }).catch(err => {
+          console.error('Errore nel copiare il testo: ', err);
+        });
+      });
+
+      function toggleDiv() {
+        let button = document.querySelector('.collapsible-button');
+        let content = document.getElementById('myContent');
+        button.classList.toggle('active');
+        content.classList.toggle('active');
+      }
+    </script>
+  </body>
+</html>
